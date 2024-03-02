@@ -2,7 +2,7 @@
 
 In this project, you'll learn how to create a Static Website using Amazon EC2 service, how to ssh into EC2 Instance & how to create Docker Containers and Docker Image with Nginx Configurations. 
 
-### **Step #1: To Create a EC2 Instance**
+### **Step #1: To Create an EC2 Instance**
 - To create an instance first navigate using aws management console and click on EC2 service.
 - After then click on launch instance and name the instance as **staticwbinstance** (you can name the instance as per your choice as well).
 - You have to select ubuntu AMI image for this project.
