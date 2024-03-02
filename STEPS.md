@@ -1,4 +1,4 @@
-# **Static Website on AWS EC2 using Nginx & Docker Containers.**
+# **Static Website on AWS EC2 using Nginx & Docker Containers**
 
 In this project, you'll learn how to create a Static Website using Amazon EC2 service, how to ssh into EC2 Instance & how to create Docker Containers and Docker Image with Nginx Configurations. 
 
