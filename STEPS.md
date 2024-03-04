@@ -6,7 +6,7 @@ In this project, you'll learn how to create a Static Website using Amazon EC2 se
 - To create an instance first navigate using aws management console and click on EC2 service.
 - After then click on launch instance and name the instance as **staticwbinstance** (you can name the instance as per your choice as well).
 - You have to select ubuntu AMI image for this project.
-- We have to create a Key Pair in the key pair tab, Click on Create new key pair and name the key pair as **testkeystaticwb** selct the .pem option because we are going to ssh into that instance using CLI and the creat new key pair option after clicking the keypair will be downloaded into your machine downloads folder.
+- We have to create a Key Pair in the key pair tab, Click on Create new key pair and name the key pair as **testkeystaticwb** select the .pem option because we are going to ssh into that instance using CLI and then create new key pair option after clicking the keypair will be downloaded into your machine downloads folder.
 - We now create a new Security Group name it as **StaticwbGroup** in the description type **Allow port 80 and 22** now will add the inbond rules to allow HTTP(Port 80) and SSH(Port 22) traffic from Anywhere on IPV4 traffic by selecting the Add rule in the inbound rules tab and then we will create the Security Group.
 -Configure the storage setting and set 20GiB as storage.
 - Now we have successfully created the key pair and configured the Security Group for our EC2 Instance now we paste the Shell Script File in the Advanced Details Section where a big textbox appears in that paste the below code.
