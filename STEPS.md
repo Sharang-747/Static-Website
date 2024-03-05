@@ -80,7 +80,7 @@ server {
 - Now we create Docker Container by typing `docker run --rm -d -p 80:80 testimg:v1` in this command we are mapping port 80 to 80 and also using `--rm` to delete the container immediately after it stops running.
 - If we type `docker ps` command we can see that our container is running and port 80 is exposed.
 
-### **Step #5: **Deploying the Static Website**
+### **Step #5: Deploying the Static Website**
 - Now we go back to our EC2 Console and click on our instance in our instance details there will be `Public IPv4 DNS` copy that address.
 - After copying paste that DNS address which looks like this (http://ec2-54-234-124-243.compute-1.amazonaws.com/) in new tab of your browser you can see your static website is running.
 - #### Your Project is Complete.
