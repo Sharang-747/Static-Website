@@ -1,6 +1,6 @@
 # Static Website on AWS EC2 using Nginx & Docker Containers
-- In this project we will learn how to ssh into EC2 instance.
-- How to create Docker Image.
-- How to create Docker Container and store Docker Image in it.
-- How to configure Nginx file.
-- How to host static website. 
+
+- Provisioned an EC2 instance and executed a bash script to install Docker and its dependencies.
+- Leveraged the AWS CLI via SSH to install Docker containers and images, facilitating efficient deployment.
+- Utilized a Dockerfile to configure and run an Nginx web server, including website file extraction and server configuration for port access. 
+ 
